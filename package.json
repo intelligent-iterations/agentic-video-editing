@@ -1,0 +1,30 @@
+{
+  "name": "@intelligent-iterations/agentic-video-editing",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.16"
+  },
+  "scripts": {
+    "build": "tsc && node scripts/copy-assets.mjs",
+    "check": "tsc --noEmit && tsx --test test/*.test.ts",
+    "demo": "tsx src/demo.ts",
+    "test:demo": "tsx --test test/demo.test.ts test/launcher.test.ts",
+    "test:package": "node scripts/standalone.mjs"
+  },
+  "dependencies": {
+    "@intelligent-iterations/ii-agent-runtime": "git+https://github.com/intelligent-iterations/ii-agent-runtime.git#bf73dba661edc6850383b0edc6fb55d478bbfc39"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.4",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "description": "Reproducible AI video editing demos with Remotion, MoviePy and HyperFrames, isolated rendering and verified outputs through II Agent Runtime.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intelligent-iterations/agentic-video-editing.git"
+  }
+}

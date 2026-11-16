@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-16",
+  "runtimeSource": "bf73dba661edc6850383b0edc6fb55d478bbfc39",
+  "runtimeDependency": "@intelligent-iterations/ii-agent-runtime",
+  "sourceChecks": {
+    "unitAndSecurityTests": 40,
+    "build": "passed",
+    "freshCopyPublicDependencyInstall": "passed",
+    "secretScan": "passed"
+  },
+  "live": {
+    "entrypoint": "compiled src/cli.ts with prepared sample config",
+    "environment": "Linux amd64 in a Fleet-managed Docker lease",
+    "editor": "moviepy",
+    "runId": "fb150591-19b3-47db-a23f-865f8fc3f310",
+    "status": "passed",
+    "cleanup": "confirmed",
+    "renderer": "video-editing-moviepy@sha256:5c3e01d437d5d5807c957d5d8cad28e64db18ad14e956462c070446eaf2137e7",
+    "limits": {
+      "cpu": 2,
+      "memoryMiB": 2048,
+      "diskGiB": 2,
+      "timeoutSeconds": 600,
+      "maxInputMiB": 10,
+      "maxOutputMiB": 32,
+      "expectedVideos": 2
+    },
+    "startedAt": "2026-11-16T13:59:39.154Z",
+    "finishedAt": "2026-11-16T14:00:53.172Z",
+    "videos": [
+      {
+        "file": "short-1.mp4",
+        "bytes": 456849,
+        "sha256": "97334713bce15a954ed3dc77e418502d08665bd99a28b6166af987f08be07f3e",
+        "width": 1080,
+        "height": 1920,
+        "duration_s": 6,
+        "audio": true,
+        "full_decode": "passed"
+      },
+      {
+        "file": "short-2.mp4",
+        "bytes": 429373,
+        "sha256": "57e75402e6352d7abd0f010b9cd71ab1174d0665ae1929436e17ec382d972837",
+        "width": 1080,
+        "height": 1920,
+        "duration_s": 6,
+        "audio": true,
+        "full_decode": "passed"
+      }
+    ],
+    "checkpoints": [
+      "preparing",
+      "provisioning",
+      "cleaned",
+      "preparing",
+      "provisioning",
+      "cleaned"
+    ],
+    "fleet": {
+      "state": "cleaned",
+      "exitCode": 0,
+      "hostCapacityRestored": true
+    }
+  },
+  "scope": "The extracted coordinator CLI and public runtime dependency rendered and validated the MoviePy sample. The npm run demo launcher is covered by unit tests; Remotion and HyperFrames retain historical pre-extraction live evidence rather than new standalone live-run claims."
+}

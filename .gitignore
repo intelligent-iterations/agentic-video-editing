@@ -1,0 +1,14 @@
+node_modules/
+dist/
+/config.json
+results/
+.runtime/
+*.tgz
+.env*
+*.pem
+*.key
+secrets/
+__pycache__/
+*.pyc
+CLAUDE.local.md
+AGENTS.local.md

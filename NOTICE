@@ -1,0 +1,6 @@
+Agentic Video Editing
+Copyright 2026 Intelligent Iterations.
+
+The demo application is adapted from the II Agent Runtime video-editing example.
+II Agent Runtime is consumed as a separate dependency under Apache-2.0.
+Editor packages and community skill packs retain their respective upstream licenses.
