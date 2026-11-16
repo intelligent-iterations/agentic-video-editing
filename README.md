@@ -3,7 +3,6 @@
 <h1 align="center">Agentic Video Editing</h1>
 <p align="center"><strong>One source clip. Four distinct edits. Every render leaves a record.</strong></p>
 <p align="center">
-<a href="https://github.com/intelligent-iterations/agentic-video-editing/actions/workflows/codeql.yml"><img src="https://github.com/intelligent-iterations/agentic-video-editing/actions/workflows/codeql.yml/badge.svg?branch=main" alt="Public CodeQL workflow status"></a>
 <a href="package.json"><img src="https://img.shields.io/github/package-json/v/intelligent-iterations/agentic-video-editing/main?label=source%20version" alt="Source version"></a>
 <a href="package.json"><img src="https://img.shields.io/badge/Node.js-%3E%3D22.16-339933?logo=nodedotjs&amp;logoColor=white" alt="Node.js: &gt;=22.16"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License: Apache-2.0"></a>
