@@ -17,7 +17,7 @@
     "@intelligent-iterations/ii-agent-runtime": "git+https://github.com/intelligent-iterations/ii-agent-runtime.git#bf73dba661edc6850383b0edc6fb55d478bbfc39"
   },
   "devDependencies": {
-    "@types/node": "22.20.4",
+    "@types/node": "26.6.6",
     "tsx": "4.23.15",
     "typescript": "5.9.3"
   },
