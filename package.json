@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/node": "22.20.4",
     "tsx": "4.23.15",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "description": "Reproducible AI video editing demos with Remotion, MoviePy and HyperFrames, isolated rendering and verified outputs through II Agent Runtime.",
   "license": "Apache-2.0",
