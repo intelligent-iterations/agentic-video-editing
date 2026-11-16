@@ -2,7 +2,15 @@
 
 <h1 align="center">Agentic Video Editing</h1>
 <p align="center"><strong>One source clip. Four distinct edits. Every render leaves a record.</strong></p>
+<p align="center">
+<a href="https://github.com/intelligent-iterations/agentic-video-editing/actions/workflows/codeql.yml"><img src="https://github.com/intelligent-iterations/agentic-video-editing/actions/workflows/codeql.yml/badge.svg?branch=main" alt="Public CodeQL workflow status"></a>
+<a href="package.json"><img src="https://img.shields.io/github/package-json/v/intelligent-iterations/agentic-video-editing/main?label=source%20version" alt="Source version"></a>
+<a href="package.json"><img src="https://img.shields.io/badge/Node.js-%3E%3D22.16-339933?logo=nodedotjs&amp;logoColor=white" alt="Node.js: &gt;=22.16"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="License: Apache-2.0"></a>
+<a href="https://discord.gg/DEGQX9RVNn"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&amp;logoColor=white" alt="Join the Discord community"></a>
+</p>
 <p align="center"><a href="#render-your-first-shorts"><strong>Run the demo</strong></a> &nbsp; · &nbsp; <a href="https://www.youtube.com/watch?v=V46Ah6IN0oU"><strong>Watch the original</strong></a> &nbsp; · &nbsp; <a href="#compare-the-four-edits"><strong>Compare the edits</strong></a> &nbsp; · &nbsp; <a href="https://github.com/intelligent-iterations/agentic-video-editing/blob/main/docs/experiment.md"><strong>Read the experiment</strong></a></p>
+<p align="center"><a href="docs/usage.md">Usage</a> &nbsp; · &nbsp; <a href="CONTRIBUTING.md">Contributing</a> &nbsp; · &nbsp; <a href="SECURITY.md">Security</a> &nbsp; · &nbsp; <a href="https://discord.gg/DEGQX9RVNn">Discord</a></p>
 
 Render agent-authored **Remotion, MoviePy and HyperFrames** projects into validated vertical MP4s. Each render gets a disposable offline worker, explicit resource limits and only the files it needs. Keep the finished shorts, validation results and proof that the workers were cleaned up.
 
