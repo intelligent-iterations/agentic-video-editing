@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-15",
+  "model": "claude-opus-5-5",
+  "agent": "native Claude Code",
+  "source_seconds": 20.4,
+  "judge_count": 1,
+  "scores_max": 25,
+  "cost_basis": "API list-price equivalent from per-model-call logs; incremental token charge on Claude Max was $0",
+  "token_counts": "Rounded; include cached tokens",
+  "worker_limits": {
+    "cpu": 2,
+    "memory_mib": 2816,
+    "disk_gib": 10,
+    "wall_minutes": 55
+  },
+  "results": [
+    {
+      "setup": "Remotion",
+      "youtube_id": "JA0942rmXDg",
+      "score": 21,
+      "agent_minutes": 3.2,
+      "model_calls": 20,
+      "total_tokens_approx": 870000,
+      "api_equivalent_usd": 0.79,
+      "group": "ranked"
+    },
+    {
+      "setup": "MoviePy + FFmpeg",
+      "youtube_id": "wJW5bEhLzRU",
+      "score": 17,
+      "agent_minutes": 3.9,
+      "model_calls": 21,
+      "total_tokens_approx": 750000,
+      "api_equivalent_usd": 0.73,
+      "group": "ranked"
+    },
+    {
+      "setup": "Video-use",
+      "youtube_id": "T67Mrx2VCMQ",
+      "score": 15,
+      "agent_minutes": 7.2,
+      "model_calls": 32,
+      "total_tokens_approx": 1490000,
+      "api_equivalent_usd": 1.45,
+      "group": "ranked"
+    },
+    {
+      "setup": "HyperFrames",
+      "youtube_id": "SJDKMSb-i3I",
+      "score": 15,
+      "agent_minutes": 4.6,
+      "model_calls": 30,
+      "total_tokens_approx": 2160000,
+      "api_equivalent_usd": 1.53,
+      "group": "ranked"
+    }
+  ],
+  "source": "https://github.com/intelligent-iterations/agentic-video-editing/blob/main/docs/experiment.md",
+  "reproduction_scope": "This repository renders prepared projects with three editors. It does not include the private model gateway or authoring harness.",
+  "totals": {
+    "agent_minutes": 18.9,
+    "model_calls": 103,
+    "total_tokens_approx": 5270000,
+    "api_equivalent_usd": 4.5,
+    "scored_setups": 4
+  },
+  "baseline": {
+    "youtube_id": "V46Ah6IN0oU",
+    "url": "https://www.youtube.com/watch?v=V46Ah6IN0oU",
+    "scored": false,
+    "duration_seconds": 20.40307,
+    "source_sha256": "d2ad60dfa13b9cddeb2bb3fcb11ddd0d891619ae61b8be50284bc6426cb0f4ef"
+  }
+}
